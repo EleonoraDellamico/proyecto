@@ -1,5 +1,3 @@
-import headerMe from '../img/headerNoBackground.gif';
-
 function Header() {
 	return (
 		<div className="header">
@@ -14,9 +12,6 @@ function Header() {
 						This project is a resume template that can be used as the project home page or resume page.
 					</span>
 				</p>
-			</div>
-			<div className="header-gif">
-				<img alt="developer" src={headerMe} />
 			</div>
 		</div>
 	);

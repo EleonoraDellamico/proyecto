@@ -8,14 +8,6 @@
 	text-align: center;
 }
 
-.App-header {
-	background-color: #282c34;
-}
-
-.App-link {
-	color: #61dafb;
-}
-
 /*NAVBAR*/
 .container-navBar {
 	background-color: black;
@@ -38,7 +30,7 @@ ul > li {
 	margin-right: 15px;
 }
 .selected {
-	color: #fe6928;
+	color: #ee3322;
 }
 a {
 	text-decoration: none;
@@ -52,33 +44,27 @@ a {
 .header {
 	width: 100vw;
 	/* height:593px; mediaqueries pc */
-	height: 400px;
-	background-color: black;
+	height: 659px;
+	background-image: url("./img/idea.png");
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
-}
-.header-gif {
-	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
+	background-position: center;
 }
 
-img {
-	width: 135px;
-	height: fit-content;
-}
 .header-text-animation {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-left: 130px;
+	margin-top: 124px;
 }
 
 .text-animated {
 	font-family: 'Open Sans', sans-serif;
 	color: white;
-	font-size: 16px;
+	font-size: 20px;
+	text-transform: uppercase;
 }
 .header-text {
 	display: flex;
@@ -91,58 +77,4 @@ img {
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	font-size: 12px;
-}
-
-.header-text-animation .text-animated {
-	border-right: .15em solid orange;
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	white-space: nowrap; /* The white-space property specifies how white-space inside an element is handled */
-	overflow: hidden;
-	color: white;
-}
-.header-text-animation p:nth-child(1) {
-	width: 100%;
-	-webkit-animation: type 2s steps(40, end);
-	animation: type 2s steps(40, end), blink .5s step-end infinite alternate;
-	-webkit-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
-
-.header-text-animation p:nth-child(2) {
-	width: 100%;
-	opacity: 0;
-	-webkit-animation: type2 2s steps(40, end);
-	animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
-	-webkit-animation-delay: 2s;
-	animation-delay: 2s;
-	-webkit-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
-@keyframes type {
-	0% {
-		width: 0;
-	}
-	99.9% {
-		border-right: .15em solid orange;
-	}
-	100% {
-		border: none;
-	}
-}
-
-@keyframes type2 {
-	0% {
-		width: 0;
-	}
-	1% {
-		opacity: 1;
-	}
-	99.9% {
-		border-right: .15em solid orange;
-	}
-	100% {
-		opacity: 1;
-		border: none;
-	}
 }
