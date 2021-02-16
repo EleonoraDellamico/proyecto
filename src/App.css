@@ -10,7 +10,7 @@
 
 /*NAVBAR*/
 .container-navBar {
-	background-color: #c3952285;
+	background-color: #b1cbe6e0;
 	width: 100vw;
 	height: 39px;
 	display: flex;
@@ -30,7 +30,7 @@ ul > li {
 	margin-right: 15px;
 }
 .selected {
-	color: #ee3322;
+	color: #ce847d;
 }
 a {
 	text-decoration: none;
@@ -44,8 +44,8 @@ a {
 /*HEADER*/
 .header {
 	position: relative;
-	margin-top: -68px;
-	height: 100vh;
+	margin-top: -39px;
+	height: 77vh;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -68,9 +68,9 @@ a {
 	width: 53vw;
 	height: 65px;
 	align-items: center;
-	background-color: white;
+	background-color: #ffffff82;
 	justify-content: center;
-	border: 2px solid #d89f10f2;
+	border: 2px solid #98acc1f2git add;
 }
 
 .text-animated {
