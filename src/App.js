@@ -1,4 +1,6 @@
 import './App.css';
+import VideoLooper from 'react-video-looper';
+
 import NavBar from './components/NavBar';
 import Header from "./components/Header";
 function App() {

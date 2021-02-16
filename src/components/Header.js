@@ -1,10 +1,11 @@
 import Video from '../img/production ID_3963239.mp4';
+import VideoLooper from 'react-video-looper';
 
 function Header() {
 	return (
 		<div className="header">
 			<video muted autoPlay loop className="video">
-				<source src={Video} />
+				<VideoLooper source src={Video} />
 			</video>
 			<div className="header-text-animation">
 				<p className="text-animated">I'm Eleonora</p>
