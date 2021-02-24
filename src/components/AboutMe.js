@@ -1,6 +1,6 @@
 import { Button } from '@material-ui/core';
-import CloudUploadIcon from '@material-ui/icons/CloudUpload';
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
+import Eli from '../img/Eli.jpeg';
 //import Icon from '@material-ui/core/Icon';
 
 function AboutMe() {
@@ -9,13 +9,14 @@ function AboutMe() {
 			<div className="personalInfo">
 				<h2 className="title">About Me</h2>
 				<p className="text">
-					Sociologist holding a Master Degree in Human Resources, after an amazing experience working in a
-					start-up and digging deeper into Web sites and UX, I decided to take a great step towards the IT
-					World and become a Front End Developer. 💻⌨ My studies and experience working closely with people
-					from different parts of the world make me an empathetic person. I love the energy generated from the
-					teamwork. I like to describe myself as an observant and committed professional. My motto is “'If
-					we're growing, we're always going to be out of our comfort zone.' (John Maxwell).
+					Me llamo Eleonora y soy Junior Frontend. Fue durante mi experiencia trabajando en una startup en la
+					cual me acerqué por primera vez al mundo tecnológico y al diseño web. Me llamó mucho la atención,
+					ver cómo desde una línea de código se reflejaba algo bonito en la pantalla, por ese motivo decidí
+					lanzarme en este nuevo mundo.
 				</p>
+				<div className="container__photo">
+					<img alt="girl" src={Eli} className="photo__aboutMe" />
+				</div>
 			</div>
 			<div className="aboutMe__contact">
 				<h2 className="title">My contact</h2>

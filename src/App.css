@@ -95,6 +95,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 	padding: 20px;
+	padding: 50px;
 }
 .aboutMe__contact {
 	display: flex;
@@ -116,4 +117,13 @@ a {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bolder;
 	line-height: 2.6;
+	text-align: justify;
+}
+.container__photo {
+	display: flex;
+	flex-direction: column;
+	margin-top: 52px;
+}
+.photo__aboutMe {
+	width: 238px;
 }
