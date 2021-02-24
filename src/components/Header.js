@@ -1,4 +1,5 @@
-import Video from '../img/production ID_3971351.mp4';
+import Video from '../img/yellow.mp4';
+//import Photo from '../img/abstract.jpg';
 
 function Header() {
 	return (
