@@ -28,7 +28,7 @@ function AboutMe() {
 					href="https://drive.google.com/file/d/15tRruG2eUCaDzYXY-p8MOAR1eBTM21lF/view?usp=sharing"
 					download="Eleonora__DellAmico__CV"
 				>
-					Download
+					Download CV
 				</a>
 			</Button>
 		</div>
