@@ -1,6 +1,6 @@
 import { Button } from '@material-ui/core';
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
-import Eli from '../img/Eli.jpeg';
+import Eli from '../img/EliB&W.jpeg';
 //import Icon from '@material-ui/core/Icon';
 
 function AboutMe() {
@@ -24,14 +24,16 @@ function AboutMe() {
 				<p className="text">Phone: +34 602726345</p>
 				<p className="text">email: eleonoradellamico4@gmail.com</p>
 			</div>
-			<Button variant="contained" color="default" startIcon={<CloudDownloadIcon />}>
-				<a
-					href="https://drive.google.com/file/d/15tRruG2eUCaDzYXY-p8MOAR1eBTM21lF/view?usp=sharing"
-					download="Eleonora__DellAmico__CV"
-				>
-					Download CV
-				</a>
-			</Button>
+			<div className="btn__aboutMe">
+				<Button variant="contained" color="default" startIcon={<CloudDownloadIcon />}>
+					<a
+						href="https://drive.google.com/file/d/15tRruG2eUCaDzYXY-p8MOAR1eBTM21lF/view?usp=sharing"
+						download="Eleonora__DellAmico__CV"
+					>
+						Download CV
+					</a>
+				</Button>
+			</div>
 		</div>
 	);
 }

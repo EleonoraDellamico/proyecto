@@ -2,7 +2,7 @@ function navBar() {
 	return (
 		<div className="container-navBar">
 			<nav className="navBar-menu">
-				<ul>
+				<ul className="navBar__list">
 					<li>
 						<a className="smoothscroll selected" href="#home">
 							Home
