@@ -82,9 +82,6 @@ export default function LinearWithValueLabel() {
 		const timer = setInterval(() => {
 			setProgress((prevProgress) => (prevProgress >= 70 ? 10 : prevProgress + 10));
 		}, 800);
-		return () => {
-			clearInterval(timer);
-		};
 	}, []);
 
 	return (
