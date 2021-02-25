@@ -124,7 +124,6 @@ button {
 	margin-bottom: 20px;
 }
 .text {
-	cursor: pointer;
 	font-size: 14px;
 	color: black;
 	font-family: 'Open Sans', sans-serif;
@@ -145,6 +144,9 @@ button {
 	display: flex;
 	flex-direction: column;
 	margin-top: 100px;
+	background-color: oldlace;
+	padding-top: 42px;
+	padding-bottom: 50px;
 }
 .container__experienceTitle {
 	display: flex;
@@ -220,4 +222,43 @@ button {
 }
 .link__portfolio {
 	margin-right: 10px;
+}
+/*Footer*/
+.container__footer {
+	width: 100vw;
+	background-color: black;
+	margin-top: 50px;
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#footer__title {
+	color: white;
+}
+.container_link__footer,
+.container__small {
+	display: flex;
+}
+.link__footer {
+	height: 31px;
+	width: auto;
+	margin-right: 30px;
+}
+.container__small {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+.small {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	line-height: 1.8;
+	text-align: justify;
+}
+.link__small {
+	height: 31px;
+	width: auto;
 }

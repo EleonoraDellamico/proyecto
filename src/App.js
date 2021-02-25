@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
 import LinearProgressWithLabel from "./components/Skills";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 function App() {
 	return (<>
@@ -14,6 +15,7 @@ function App() {
 		<Experience/>
 		<LinearProgressWithLabel/>
 		<Portfolio/>
+		<Footer/>
 		</>
 	);
 }
