@@ -260,6 +260,8 @@ button {
 }
 .info__imgPortfolio {
 	margin-top: 10px;
+	display: flex;
+	flex-direction: row-reverse;
 }
 .link__portfolio {
 	margin-right: 10px;
@@ -271,11 +273,18 @@ button {
 	width: 100vw;
 	background-color: black;
 	margin-top: 50px;
-	height: 30vh;
+	height: 40vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding-top: 20px;
+}
+#btn__up {
+	margin-bottom: 20px;
+	cursor: pointer;
+	border: 1px solid white;
+	border-radius: 50%;
 }
 #footer__title {
 	color: white;

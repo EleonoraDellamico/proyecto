@@ -1,6 +1,6 @@
-import Photo from '../img/ciak.jpg';
+import Photo from '../img/Netflix_logo.svg';
 import PhotoOne from '../img/card.jpg';
-import PhotoTwo from '../img/laptop.jpg';
+import PhotoTwo from '../img/gameCard.jpg';
 import GitHub from '../img/github.png';
 import Link from '../img/link.png';
 import Button from '@material-ui/core/Button';
@@ -14,6 +14,7 @@ function Portfolio() {
 			<div className="container__imgPortfolio">
 				<img className="portfolioImg" src={Photo} alt="Cinema" />
 				<div className="info__imgPortfolio">
+					<p className="text">Design and layout Html Css Netflix</p>
 					<img className="link__portfolio" src={GitHub} alt="gitHub" />
 					<img className="link__portfolio" src={Link} alt="gitHub" />
 				</div>
@@ -21,6 +22,7 @@ function Portfolio() {
 			<div className="container__imgPortfolio">
 				<img className="portfolioImg" src={PhotoOne} alt="Cards" />
 				<div className="info__imgPortfolio">
+					<p className="text">React project creating visting cards</p>
 					<img className="link__portfolio" src={GitHub} alt="gitHub" />
 					<img className="link__portfolio" src={Link} alt="gitHub" />
 				</div>
@@ -28,6 +30,7 @@ function Portfolio() {
 			<div className="container__imgPortfolio">
 				<img className="portfolioImg" src={PhotoTwo} alt="Laptop" />
 				<div className="info__imgPortfolio">
+					<p className="text">Play memory card with Javascript!</p>
 					<img className="link__portfolio" src={GitHub} alt="gitHub" />
 					<img className="link__portfolio" src={Link} alt="gitHub" />
 				</div>

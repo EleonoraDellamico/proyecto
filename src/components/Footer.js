@@ -4,11 +4,17 @@ import Twitter from '../img/twitterpng.png';
 import Email from '../img/Email.png';
 import Heart from '../img/heart.png';
 import Brain from '../img/brain.png';
+import Btn2 from '../img/flechaFooter.png';
 
 function Portfolio() {
 	return (
 		<footer>
 			<div className="container__footer">
+				<div className="container__btn" id="btn__up">
+					<button>
+						<img src={Btn2} alt="button" />
+					</button>
+				</div>
 				<div className="container__title">
 					<h2 className="title" id="footer__title">
 						Contact me

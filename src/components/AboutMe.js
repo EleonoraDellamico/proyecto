@@ -9,10 +9,13 @@ function AboutMe() {
 			<div className="personalInfo">
 				<h2 className="title">About Me</h2>
 				<p className="text">
-					Me llamo Eleonora y soy Junior Frontend. Fue durante mi experiencia trabajando en una startup en la
-					cual me acerqué por primera vez al mundo tecnológico y al diseño web. Me llamó mucho la atención,
-					ver cómo desde una línea de código se reflejaba algo bonito en la pantalla, por ese motivo decidí
-					lanzarme en este nuevo mundo.
+					I'm Eleonora becoming a Frontend developer after an amazing experience working in a start-up and
+					digging deeper into Web sites and UX. In addition, I'm a sociologist holding a master degree in
+					Human Resources. I think study human behavior it's extremely important in this job for this reason I
+					did different courses about User Research CX Research and UX Testing in Platzi. My studies and
+					experience working closely with people from different parts of the world make me an empathetic
+					person. I believe in the energy generated from teamwork. I like to describe myself as an observant
+					and committed professional.
 				</p>
 				<div className="container__photo">
 					<img alt="girl" src={Eli} className="photo__aboutMe" />
