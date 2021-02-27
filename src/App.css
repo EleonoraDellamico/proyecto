@@ -3,6 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html {
+	scroll-behavior: smooth;
+}
 
 .App {
 	text-align: center;
@@ -96,7 +99,7 @@ button {
 	cursor: pointer;
 }
 /*END HEADER*/
-/*ABOUT ME*/
+/* START ABOUT ME*/
 .container__personalInfo {
 	display: flex;
 	flex-direction: column;
@@ -139,7 +142,8 @@ button {
 .photo__aboutMe {
 	width: 238px;
 }
-/*Experience*/
+/*END ABOUT ME*/
+/*START EXPERIENCE*/
 .container__experience {
 	display: flex;
 	flex-direction: column;
@@ -185,16 +189,53 @@ button {
 	align-items: center;
 	margin-top: 33px;
 }
-/*BARS*/
+
+/* END EXPERIENCE*/
+
+/* START SKILLS*/
+
+.container__bars {
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+}
 .container__titleSkills {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 30px;
 }
-.container__bars {
-	padding: 50px;
+.containerStyles {
+	height: 20;
+	background-color: rgb(233, 233, 233);
+	border-radius: 50;
+	margin: 50;
 }
-/*Portfolio*/
+.fillerStyles {
+	height: 20px;
+	width: 250px;
+	background-color: rgba(66, 141, 17, 0.89);
+	border-radius: inherit;
+	text-align: right;
+	transition: 'width 1s ease-in-out';
+}
+.labelStyles {
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	margin-right: 5px;
+}
+#css_bar {
+	background-color: rgba(245, 191, 13, 0.89);
+}
+#js_bar {
+	background-color: rgba(250, 0, 117, 0.89);
+}
+#react_bar {
+	background-color: rgba(70, 31, 248, 0.89);
+}
+/* END SKILLS*/
+/*START PORTFOLIO*/
 .container__portfolio {
 	display: flex;
 	flex-direction: column;
@@ -223,7 +264,9 @@ button {
 .link__portfolio {
 	margin-right: 10px;
 }
-/*Footer*/
+
+/* END PORTFOLIO*/
+/*START FOOTER*/
 .container__footer {
 	width: 100vw;
 	background-color: black;
@@ -262,3 +305,5 @@ button {
 	height: 31px;
 	width: auto;
 }
+
+/* END FOOTER*/

@@ -34,7 +34,7 @@ function Portfolio() {
 			</div>
 			<div className="btn__experience">
 				<Button variant="outlined" color="secondary">
-					More project
+					More projects
 				</Button>
 			</div>
 		</div>
