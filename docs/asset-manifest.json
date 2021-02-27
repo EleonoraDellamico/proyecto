@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.42b1c0db.chunk.css",
-    "main.js": "./static/js/main.68b9d6bd.chunk.js",
-    "main.js.map": "./static/js/main.68b9d6bd.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.01c86ba9.js",
-    "runtime-main.js.map": "./static/js/runtime-main.01c86ba9.js.map",
-    "static/js/2.e1d0aea2.chunk.js": "./static/js/2.e1d0aea2.chunk.js",
-    "static/js/2.e1d0aea2.chunk.js.map": "./static/js/2.e1d0aea2.chunk.js.map",
-    "static/js/3.9ff63cb6.chunk.js": "./static/js/3.9ff63cb6.chunk.js",
-    "static/js/3.9ff63cb6.chunk.js.map": "./static/js/3.9ff63cb6.chunk.js.map",
+    "main.css": "./static/css/main.1b3c8aa8.chunk.css",
+    "main.js": "./static/js/main.de953441.chunk.js",
+    "main.js.map": "./static/js/main.de953441.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.e47035cf.js",
+    "runtime-main.js.map": "./static/js/runtime-main.e47035cf.js.map",
+    "static/js/2.488fb2f8.chunk.js": "./static/js/2.488fb2f8.chunk.js",
+    "static/js/2.488fb2f8.chunk.js.map": "./static/js/2.488fb2f8.chunk.js.map",
+    "static/js/3.bccde700.chunk.js": "./static/js/3.bccde700.chunk.js",
+    "static/js/3.bccde700.chunk.js.map": "./static/js/3.bccde700.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.42b1c0db.chunk.css.map": "./static/css/main.42b1c0db.chunk.css.map",
-    "static/js/2.e1d0aea2.chunk.js.LICENSE.txt": "./static/js/2.e1d0aea2.chunk.js.LICENSE.txt",
+    "static/css/main.1b3c8aa8.chunk.css.map": "./static/css/main.1b3c8aa8.chunk.css.map",
+    "static/js/2.488fb2f8.chunk.js.LICENSE.txt": "./static/js/2.488fb2f8.chunk.js.LICENSE.txt",
     "static/media/Eli.818f43bc.jpeg": "./static/media/Eli.818f43bc.jpeg",
+    "static/media/Netflix_logo.f6c59d32.svg": "./static/media/Netflix_logo.f6c59d32.svg",
     "static/media/card.3e3878a8.jpg": "./static/media/card.3e3878a8.jpg",
-    "static/media/ciak.a1148eef.jpg": "./static/media/ciak.a1148eef.jpg",
-    "static/media/laptop.8d009e1b.jpg": "./static/media/laptop.8d009e1b.jpg",
+    "static/media/gameCard.16738718.jpg": "./static/media/gameCard.16738718.jpg",
     "static/media/yellow.e0ccd183.mp4": "./static/media/yellow.e0ccd183.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.01c86ba9.js",
-    "static/js/2.e1d0aea2.chunk.js",
-    "static/css/main.42b1c0db.chunk.css",
-    "static/js/main.68b9d6bd.chunk.js"
+    "static/js/runtime-main.e47035cf.js",
+    "static/js/2.488fb2f8.chunk.js",
+    "static/css/main.1b3c8aa8.chunk.css",
+    "static/js/main.de953441.chunk.js"
   ]
 }

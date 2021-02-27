@@ -6,6 +6,11 @@ import Experience from "./components/Experience";
 import ProgressBar from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
+import Curriculum from "./components/Curriculum";
+import { Link, Route, Switch } from 'react-router-dom';
+
+
+
 
 
 
@@ -14,14 +19,20 @@ import Footer from "./components/Footer";
 
 function App() {
 
-	return (<>
+	return (
+	<>
+			
 		<NavBar />
 		<Header/>
 		<AboutMe/>
+		<Switch>
 		<Experience/>
+			<Route exact path="/" component={Curriculum}/>
+		</Switch>
         <ProgressBar />
       	<Portfolio/>
 		<Footer/>
+
 		</>
 	);
 }

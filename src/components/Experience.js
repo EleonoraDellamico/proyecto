@@ -1,7 +1,8 @@
 import Button from '@material-ui/core/Button';
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
+import { Link, Route, Switch } from 'react-router-dom';
 
-function Experience() {
+function Experience(props) {
 	return (
 		<div className="container__experience">
 			<div className="container__experienceTitle">
@@ -63,9 +64,11 @@ function Experience() {
 				</ul>
 			</div>
 			<div className="btn__experience">
-				<Button variant="outlined" color="secondary">
-					More information
-				</Button>
+				<Link to={`/curriculum/`}>
+					<Button variant="outlined" color="secondary">
+						More information
+					</Button>
+				</Link>
 			</div>
 		</div>
 	);

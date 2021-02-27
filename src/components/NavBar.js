@@ -10,17 +10,12 @@ function navBar() {
 					</li>
 					<li>
 						<a className="smoothscroll" href="#about">
-							About
+							About Me
 						</a>
 					</li>
 					<li>
 						<a className="smoothscroll" href="#Home">
-							Resume
-						</a>
-					</li>
-					<li>
-						<a className="smoothscroll" href="#Home">
-							Works
+							Portfolio
 						</a>
 					</li>
 					<li>
