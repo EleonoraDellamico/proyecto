@@ -12,7 +12,9 @@ function Header() {
 			</div>
 			<div className="container__btn">
 				<button>
-					<img src={Btn} alt="button" />
+					<a href="#about">
+						<img src={Btn} alt="button" />
+					</a>
 				</button>
 			</div>
 		</div>

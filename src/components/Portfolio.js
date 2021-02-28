@@ -14,7 +14,9 @@ function Portfolio() {
 				</a>
 			</div>
 			<div className="container__imgPortfolio">
-				<img className="portfolioImg" src={Photo} alt="Cinema" />
+				<a href="https://eleonoradellamico.github.io/Cinema/" target="_blank">
+					<img className="portfolioImg" src={Photo} alt="Cinema" />
+				</a>
 				<div className="info__imgPortfolio">
 					<p className="text">Design&layout Html Css Netflix</p>
 					<img className="link__portfolio" src={GitHub} alt="gitHub" />
@@ -22,15 +24,20 @@ function Portfolio() {
 				</div>
 			</div>
 			<div className="container__imgPortfolio">
-				<img className="portfolioImg" src={PhotoOne} alt="Cards" />
+				<a href="https://martreyz.github.io/project-promo-k-module-3-team-4/#/" taget="_blank">
+					<img className="portfolioImg" src={PhotoOne} alt="Cards" />
+				</a>
 				<div className="info__imgPortfolio">
-					<p className="text">React project creating visting cards</p>
+					<p className="text">React project: Visting cards</p>
 					<img className="link__portfolio" src={GitHub} alt="gitHub" />
 					<img className="link__portfolio" src={Link} alt="gitHub" />
 				</div>
 			</div>
 			<div className="container__imgPortfolio">
-				<img className="portfolioImg" src={PhotoTwo} alt="Laptop" />
+				<a href="https://eleonoradellamico.github.io/LearnJavaScrip_MemoryGame/" target="_blank">
+					{' '}
+					<img className="portfolioImg" src={PhotoTwo} alt="Laptop" />
+				</a>
 				<div className="info__imgPortfolio">
 					<p className="text">Play memory card with JS!</p>
 					<img className="link__portfolio" src={GitHub} alt="gitHub" />

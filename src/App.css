@@ -263,10 +263,14 @@ button {
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 20px;
+	cursor: pointer;
 }
 .portfolioImg {
 	width: 300px;
 	height: auto;
+}
+.portfolioImg:hover {
+	opacity: 0.6;
 }
 .info__imgPortfolio {
 	margin-top: 10px;
