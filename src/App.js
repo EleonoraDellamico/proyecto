@@ -7,7 +7,7 @@ import ProgressBar from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import Curriculum from "./components/Curriculum";
-import { Link, Route, Switch } from 'react-router-dom';
+import {  BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 
@@ -21,17 +21,18 @@ function App() {
 
 	return (
 	<>
-			
+		<Router>	
 		<NavBar />
 		<Header/>
 		<AboutMe/>
-		<Switch>
 		<Experience/>
-			<Route exact path="/" component={Curriculum}/>
+		<Switch>
+		<Route path ="/curriculum" component={Curriculum}/>
 		</Switch>
         <ProgressBar />
       	<Portfolio/>
 		<Footer/>
+		</Router>
 
 		</>
 	);

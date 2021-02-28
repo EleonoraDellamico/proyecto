@@ -14,7 +14,7 @@ function Portfolio() {
 			<div className="container__imgPortfolio">
 				<img className="portfolioImg" src={Photo} alt="Cinema" />
 				<div className="info__imgPortfolio">
-					<p className="text">Design and layout Html Css Netflix</p>
+					<p className="text">Design&layout Html Css Netflix</p>
 					<img className="link__portfolio" src={GitHub} alt="gitHub" />
 					<img className="link__portfolio" src={Link} alt="gitHub" />
 				</div>
@@ -30,7 +30,7 @@ function Portfolio() {
 			<div className="container__imgPortfolio">
 				<img className="portfolioImg" src={PhotoTwo} alt="Laptop" />
 				<div className="info__imgPortfolio">
-					<p className="text">Play memory card with Javascript!</p>
+					<p className="text">Play memory card with JS!</p>
 					<img className="link__portfolio" src={GitHub} alt="gitHub" />
 					<img className="link__portfolio" src={Link} alt="gitHub" />
 				</div>
