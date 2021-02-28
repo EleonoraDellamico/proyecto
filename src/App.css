@@ -190,7 +190,16 @@ button {
 	align-items: center;
 	margin-top: 33px;
 }
-
+.email {
+	cursor: pointer;
+	text-transform: lowercase;
+	font-size: 14px;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	line-height: 1.8;
+	text-align: justify;
+}
 /* END EXPERIENCE*/
 
 /* START SKILLS*/
@@ -339,4 +348,20 @@ button {
 hr {
 	width: 50%;
 	align-self: center;
+}
+.link__opinion {
+	text-transform: lowercase;
+	cursor: pointer;
+}
+#feedback {
+	text-transform: lowercase;
+}
+.star {
+	height: 17px;
+	margin-right: 10px;
+}
+.container__opinion {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }

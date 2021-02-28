@@ -7,7 +7,9 @@ function AboutMe() {
 	return (
 		<div className="container__personalInfo">
 			<div className="personalInfo">
-				<h2 className="title">About Me</h2>
+				<a name="about">
+					<h2 className="title">About Me</h2>
+				</a>
 				<p className="text">
 					I'm Eleonora becoming a Frontend developer after an amazing experience working in a start-up and
 					digging deeper into Web sites and UX. In addition, I'm a sociologist holding a master degree in
@@ -25,7 +27,9 @@ function AboutMe() {
 				<h2 className="title">My contact</h2>
 				<p className="text">City: Madrid</p>
 				<p className="text">Phone: +34 602726345</p>
-				<p className="text">email: eleonoradellamico4@gmail.com</p>
+				<a target="_blank" className="email" href="mailto:eleonoradellamico4@gmail.com">
+					eleonoradellamico4@gmail.com
+				</a>
 			</div>
 			<div className="btn__aboutMe">
 				<Button variant="contained" color="default" startIcon={<CloudDownloadIcon />}>

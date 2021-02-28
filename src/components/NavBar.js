@@ -4,7 +4,7 @@ function navBar() {
 			<nav className="navBar-menu">
 				<ul className="navBar__list">
 					<li>
-						<a className="smoothscroll selected" href="#home">
+						<a className="smoothscroll selected" href="#">
 							Home
 						</a>
 					</li>
@@ -14,12 +14,12 @@ function navBar() {
 						</a>
 					</li>
 					<li>
-						<a className="smoothscroll" href="#Home">
+						<a className="smoothscroll" href="#portfolio">
 							Portfolio
 						</a>
 					</li>
 					<li>
-						<a className="smoothscroll" href="#Home">
+						<a className="smoothscroll" href="#contact">
 							Contact
 						</a>
 					</li>

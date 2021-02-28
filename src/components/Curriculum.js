@@ -1,4 +1,4 @@
-
+import Button from '@material-ui/core/Button';
 function Curriculum() {
 
 	return (
@@ -8,7 +8,7 @@ function Curriculum() {
 			</div>
 			<div className="container__experienceDetails">
 				<h2 className="title">Recruiter Human Resources</h2>
-				<h5 className="title__detailsCompany">Talent Me</h5>
+				<a href="https://www.talentme-experience.com/" target="_blank"><h5 className="title__detailsCompany">Talent Me</h5></a>
 				<h5 className="title__detailsCompany">2017 – 2020</h5>
 				<h5 className="title__detailsCompany">Madrid</h5>
 			</div>
@@ -32,6 +32,11 @@ function Curriculum() {
 					<li className="text">
 				Liaison with universities for Collaboration Agreements
 					</li>
+          <div className="container__opnion">
+          <a href="https://www.google.com/search?q=talent+me+dubai&oq=talent+me+dubai+&aqs=chrome.0.69i59.3990j0j7&sourceid=chrome&ie=UTF-8#lrd=0xd4229076c87e565:0xca35804145e7a31a,1,,," target="_blank" className="link__opinion">	<p id="#feedback"className="text"><img className="star"src="https://img.icons8.com/offices/30/000000/star.png"/>
+				Look the opinion
+					</p></a>
+          </div>
 				</ul>
 			</div>
       <hr></hr>
@@ -59,7 +64,7 @@ function Curriculum() {
 			</div>
       <hr></hr>
       <div className="container__experienceDetails">
-				<h2 className="title"> European Volunteering Programme</h2>
+				<h2 className="title"> European Volunteering</h2>
 				<h5 className="title__detailsCompany">Atecea</h5>
 				<h5 className="title__detailsCompany"> 2015-2016</h5>
 				<h5 className="title__detailsCompany">Zaragoza</h5>
@@ -135,6 +140,11 @@ function Curriculum() {
 					</li>
 				</ul>
 			</div> 
+      <div className="btn__experience">
+				<Button variant="outlined" color="secondary">
+					home
+				</Button>
+			</div>  
     </div>		
 </>
 	);

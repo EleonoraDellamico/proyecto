@@ -9,7 +9,9 @@ function Portfolio() {
 	return (
 		<div className="container__portfolio">
 			<div className="container__titlePortfolio">
-				<h2 className="title">Portfolio</h2>
+				<a name="portfolio">
+					<h2 className="title">Portfolio</h2>
+				</a>
 			</div>
 			<div className="container__imgPortfolio">
 				<img className="portfolioImg" src={Photo} alt="Cinema" />

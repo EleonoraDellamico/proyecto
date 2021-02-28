@@ -16,9 +16,12 @@ function Portfolio() {
 					</button>
 				</div>
 				<div className="container__title">
-					<h2 className="title" id="footer__title">
-						Contact me
-					</h2>
+					<a name="contact">
+						{' '}
+						<h2 className="title" id="footer__title">
+							Contact me
+						</h2>
+					</a>
 				</div>
 				<div className="container_link__footer">
 					<img className="link__footer" src={GitHub} alt="gitHub" />
