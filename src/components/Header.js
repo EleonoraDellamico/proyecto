@@ -1,11 +1,13 @@
 import Video from '../img/yellow.mp4';
 import Btn from '../img/btn.png';
-//import Photo from '../img/abstract.jpg';
+import PhotoFear from '../img/Fearless.jpg';
 
 function Header() {
 	return (
 		<div className="header">
-			<video src={Video} muted autoPlay loop className="video" />
+			<div className="container__photoHeader">
+				<img src={PhotoFear} alt="motivational" />
+			</div>
 			<div className="header-text-animation">
 				<p className="text-animated">I'm Eleonora</p>
 				<p className="text-animated">Junior Frontend</p>
