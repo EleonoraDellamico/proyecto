@@ -1,10 +1,11 @@
-import GitHub from '../img/githubWhite.png';
-import Link from '../img/linkedin2.png';
-import Twitter from '../img/twitterpng.png';
-import Email from '../img/Email.png';
-import Heart from '../img/heart.png';
-import Brain from '../img/brain.png';
-import Btn2 from '../img/flechaFooter.png';
+import GitHub from '../../img/githubWhite.png';
+import Link from '../../img/linkedin2.png';
+import Twitter from '../../img/twitterpng.png';
+import Email from '../../img/Email.png';
+import Heart from '../../img/heart.png';
+import Brain from '../../img/brain.png';
+import Btn2 from '../../img/flechaFooter.png';
+import './style.css';
 
 function Portfolio() {
 	return (

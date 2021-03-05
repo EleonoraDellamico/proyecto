@@ -1,6 +1,7 @@
 import { Button } from '@material-ui/core';
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
-import Eli from '../img/Eli.jpeg';
+import Eli from '../../img/Eli.jpeg';
+import './style.css';
 //import Icon from '@material-ui/core/Icon';
 
 function AboutMe() {

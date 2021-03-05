@@ -1,11 +1,11 @@
 import './App.css';
-import NavBar from './components/NavBar';
-import Header from "./components/Header";
-import AboutMe from "./components/AboutMe";
-import Experience from "./components/Experience";
-import ProgressBar from "./components/Skills";
-import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
+import NavBar from './components/NavBar/NavBar';
+import Header from "./components/Header/Header";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Experience from "./components/Experience/Experience";
+import ProgressBar from "./components/Skills/Skills";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Footer from "./components/Footer/Footer";
 // import Curriculum from "./components/Curriculum";
 import {  BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 

@@ -1,4 +1,6 @@
 import Button from '@material-ui/core/Button';
+import "./style.css";
+
 function Curriculum() {
 
 	return (

@@ -1,6 +1,5 @@
-import Video from '../img/yellow.mp4';
-import Btn from '../img/btn.png';
-// import PhotoFear from '../img/Fearless.jpg';
+import './style.css';
+import Btn from '../../img/btn.png';
 
 function Header() {
 	return (

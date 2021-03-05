@@ -1,0 +1,42 @@
+.container__personalInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.personalInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	padding: 50px;
+}
+.aboutMe__contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+.title {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+.text {
+	font-size: 14px;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	line-height: 1.8;
+	text-align: justify;
+}
+.container__photo {
+	display: flex;
+	flex-direction: column;
+	margin-top: 52px;
+}
+.photo__aboutMe {
+	width: 238px;
+}

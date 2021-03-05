@@ -1,3 +1,5 @@
+import './style.css';
+
 function navBar() {
 	return (
 		<div className="container-navBar">

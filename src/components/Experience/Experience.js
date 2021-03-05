@@ -1,6 +1,7 @@
 import Button from '@material-ui/core/Button';
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import { Link } from 'react-router-dom';
+import './style.css';
 
 function Experience(props) {
 	return (

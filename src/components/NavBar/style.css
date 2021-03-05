@@ -1,0 +1,32 @@
+.container-navBar {
+	background-color: #ffffff78;
+	width: 100vw;
+	height: 39px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+.navBar__list {
+	display: flex;
+	list-style: none;
+}
+.navBar__list > li {
+	/*margin-right: 10px;mediqueries pc*/
+	margin-right: 15px;
+}
+.selected {
+	color: #ce847d;
+}
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 12px;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+}
