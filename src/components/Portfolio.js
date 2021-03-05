@@ -4,7 +4,7 @@ import PhotoTwo from '../img/gameCard.jpg';
 import GitHub from '../img/github.png';
 import Link from '../img/link.png';
 import Button from '@material-ui/core/Button';
-
+//CRERA JSON PARA REUTILAZR CODIGO
 function Portfolio() {
 	return (
 		<div className="container__portfolio">
