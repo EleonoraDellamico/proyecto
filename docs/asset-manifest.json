@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.683f8e65.chunk.css",
-    "main.js": "./static/js/main.c4136f12.chunk.js",
-    "main.js.map": "./static/js/main.c4136f12.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.e435d2ba.js",
-    "runtime-main.js.map": "./static/js/runtime-main.e435d2ba.js.map",
-    "static/js/2.f6433fb8.chunk.js": "./static/js/2.f6433fb8.chunk.js",
-    "static/js/2.f6433fb8.chunk.js.map": "./static/js/2.f6433fb8.chunk.js.map",
-    "static/js/3.cdd3f94b.chunk.js": "./static/js/3.cdd3f94b.chunk.js",
-    "static/js/3.cdd3f94b.chunk.js.map": "./static/js/3.cdd3f94b.chunk.js.map",
+    "main.css": "./static/css/main.cd1a5dbd.chunk.css",
+    "main.js": "./static/js/main.399f6e82.chunk.js",
+    "main.js.map": "./static/js/main.399f6e82.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.ef274c35.js",
+    "runtime-main.js.map": "./static/js/runtime-main.ef274c35.js.map",
+    "static/js/2.fc951fa2.chunk.js": "./static/js/2.fc951fa2.chunk.js",
+    "static/js/2.fc951fa2.chunk.js.map": "./static/js/2.fc951fa2.chunk.js.map",
+    "static/js/3.833d533a.chunk.js": "./static/js/3.833d533a.chunk.js",
+    "static/js/3.833d533a.chunk.js.map": "./static/js/3.833d533a.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.683f8e65.chunk.css.map": "./static/css/main.683f8e65.chunk.css.map",
-    "static/js/2.f6433fb8.chunk.js.LICENSE.txt": "./static/js/2.f6433fb8.chunk.js.LICENSE.txt",
+    "static/css/main.cd1a5dbd.chunk.css.map": "./static/css/main.cd1a5dbd.chunk.css.map",
+    "static/js/2.fc951fa2.chunk.js.LICENSE.txt": "./static/js/2.fc951fa2.chunk.js.LICENSE.txt",
     "static/media/Eli.818f43bc.jpeg": "./static/media/Eli.818f43bc.jpeg",
-    "static/media/App.css": "./static/media/map.0d3d77c7.jpg",
+    "static/media/style.css": "./static/media/Fearless.db5ff325.jpg",
     "static/media/Netflix_logo.f6c59d32.svg": "./static/media/Netflix_logo.f6c59d32.svg",
     "static/media/card.3e3878a8.jpg": "./static/media/card.3e3878a8.jpg",
-    "static/media/gameCard.16738718.jpg": "./static/media/gameCard.16738718.jpg",
-    "static/media/yellow.e0ccd183.mp4": "./static/media/yellow.e0ccd183.mp4"
+    "static/media/gameCard.16738718.jpg": "./static/media/gameCard.16738718.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e435d2ba.js",
-    "static/js/2.f6433fb8.chunk.js",
-    "static/css/main.683f8e65.chunk.css",
-    "static/js/main.c4136f12.chunk.js"
+    "static/js/runtime-main.ef274c35.js",
+    "static/js/2.fc951fa2.chunk.js",
+    "static/css/main.cd1a5dbd.chunk.css",
+    "static/js/main.399f6e82.chunk.js"
   ]
 }
