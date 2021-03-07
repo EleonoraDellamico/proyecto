@@ -29,7 +29,10 @@ function App() {
 	{/* 	<Switch>
 		<Route path ="/curriculum" component={Curriculum}/>
 		</Switch> */}
-        <ProgressBar />
+        <ProgressBar done="70" />
+		<ProgressBar done="70" text="css"/>
+		<ProgressBar done="50" />
+		<ProgressBar done="50" />
       	<Portfolio/>
 		<Footer/>
 		{/* </Router> */}

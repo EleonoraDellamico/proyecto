@@ -4,7 +4,8 @@ import Twitter from '../../img/twitterpng.png';
 import Email from '../../img/Email.png';
 import Heart from '../../img/heart.png';
 import Brain from '../../img/brain.png';
-import Btn2 from '../../img/flechaFooter.png';
+//import Btn2 from '../../img/flechaFooter.png';
+import Coffee from '../../img/Coffee.png';
 import './style.css';
 
 function Portfolio() {
@@ -14,7 +15,7 @@ function Portfolio() {
 				<div className="container__btn" id="btn__up">
 					<button>
 						<a href="#about">
-							<img src={Btn2} alt="button" />
+							<img src="https://img.icons8.com/metro/26/ffffff/up--v1.png" alt="button" />
 						</a>
 					</button>
 				</div>
@@ -44,6 +45,8 @@ function Portfolio() {
 				<div className="container__small">
 					<small className="small">Made with </small>
 					<img className="link__small" alt="heart" src={Heart} />
+					<small className="small">a lot of </small>
+					<img className="link__small" alt="heart" src={Coffee} />
 					<small className="small">and</small>
 					<img className="link__small" alt="brain" src={Brain} />
 					<small className="small">By Eli</small>
