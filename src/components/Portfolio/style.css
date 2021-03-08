@@ -19,14 +19,13 @@
 	cursor: pointer;
 }
 .portfolioImg {
-	width: 300px;
-	height: auto;
+	width: 100%;
 }
 .portfolioImg:hover {
 	opacity: 0.6;
 }
 .info__imgPortfolio {
-	margin-top: 10px;
+	margin-top: 8px;
 	display: flex;
 	flex-direction: row-reverse;
 }
@@ -34,4 +33,20 @@
 	margin-right: 4px;
 }
 
-/* END PORTFOLIO*/
+/* MEDIA QUERIES IPAD*/
+@media all and (min-device-width: 768px) {
+	.container__portfolio {
+		display: flex;
+		flex-direction: row;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 20px;
+		justify-content: center;
+	}
+	.textPortfolio {
+		font-size: 10px;
+	}
+	.portfolioImg {
+		width: 92%;
+	}
+}
