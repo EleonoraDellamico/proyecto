@@ -7,22 +7,22 @@ function navBar() {
 			<nav className="navBar-menu">
 				<ul className="navBar__list">
 					<li>
-						<a className="smoothscroll selected" href="#">
+						<a id="#navBar-link" className="smoothscroll selected" href="#">
 							Home
 						</a>
 					</li>
 					<li>
-						<a className="smoothscroll" href="#about">
+						<a id="#navBar-link" className="smoothscroll" href="#about">
 							About Me
 						</a>
 					</li>
 					<li>
-						<a className="smoothscroll" href="#portfolio">
+						<a id="#navBar-link" className="smoothscroll" href="#portfolio">
 							Portfolio
 						</a>
 					</li>
 					<li>
-						<a className="smoothscroll" href="#contact">
+						<a id="#navBar-link" className="smoothscroll" href="#contact">
 							Contact
 						</a>
 					</li>

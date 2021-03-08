@@ -1,5 +1,10 @@
 .container__text {
-	isplay: flex;
+	display: flex;
 	flex-direction: column;
 	align-self: flex-start;
+}
+@media all and (min-device-width: 768px) {
+	.container__text {
+		align-self: unset;
+	}
 }

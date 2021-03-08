@@ -1,13 +1,13 @@
 .container-navBar {
-	background-color: #ffffff78;
+	background-color: rgb(255, 255, 255);
 	width: 100vw;
 	height: 39px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: absolute;
+	position: fixed;
 	top: 0;
-	z-index: 1;
+	z-index: 999;
 }
 
 .navBar__list {

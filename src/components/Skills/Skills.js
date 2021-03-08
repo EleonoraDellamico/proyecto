@@ -9,7 +9,7 @@ const ProgressBar = ({ done }) => {
 			width: `${done}%`
 		};
 		setStyle(newStyle);
-	}, 1000);
+	}, 2000);
 	return (
 		<div className="container__bars">
 			<div className="progress">

@@ -6,6 +6,7 @@
 	background-color: oldlace;
 	padding-top: 42px;
 	padding-bottom: 50px;
+	align-items: center;
 }
 .container__experienceTitle {
 	display: flex;
@@ -55,4 +56,9 @@
 	line-height: 1.8;
 	text-align: justify;
 }
-/* END EXPERIENCE*/
+/* MEDIA QUERIES IPAD EXPERIENCE*/
+@media all and (min-device-width: 768px) {
+	.container__experience {
+		padding: 50px 80px;
+	}
+}

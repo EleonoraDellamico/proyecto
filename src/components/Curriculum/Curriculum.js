@@ -1,4 +1,5 @@
 import Button from '@material-ui/core/Button';
+import { Link } from "react-router-dom";
 import "./style.css";
 
 function Curriculum() {
@@ -143,9 +144,11 @@ function Curriculum() {
 				</ul>
 			</div> 
       <div className="btn__experience">
+		  <Link to="/">
 				<Button variant="outlined" color="secondary">
 					home
 				</Button>
+				</Link>
 			</div>  
     </div>		
 </>

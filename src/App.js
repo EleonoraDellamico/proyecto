@@ -7,13 +7,8 @@ import TitleSkills from "./components/TitleSkills/TitleSkills";
 import ProgressBar from "./components/Skills/Skills";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Footer from "./components/Footer/Footer";
-// import Curriculum from "./components/Curriculum";
-//import {  BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-
-
-
-
-
+import Curriculum from "./components/Curriculum/Curriculum";
+import {  BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 
@@ -22,14 +17,16 @@ function App() {
 
 	return (
 	<>
-		{/* <Router>	 */}
+		<Router>	 
 		<NavBar />
 		<Header/>
 		<AboutMe/>
 		<Experience/>
-	{/* 	<Switch>
-		<Route path ="/curriculum" component={Curriculum}/>
-		</Switch> */}
+	<Switch>
+		<Route path ="/curriculum">
+			<Curriculum/>
+			</Route>
+		</Switch> 
 		<div className="container__skills">
 			<div className="container__titleSkills">
 				<h2 className="title">Skills</h2>
@@ -45,7 +42,7 @@ function App() {
 		</div>
       	<Portfolio/>
 		<Footer/>
-		{/* </Router> */}
+		 </Router> 
 
 		</>
 	);

@@ -5,13 +5,15 @@ import './style.css';
 //import Icon from '@material-ui/core/Icon';
 
 function AboutMe() {
-	return (
-		<div className="container__personalInfo">
-			<div className="personalInfo">
+	return (<>
+			<div className="container__title">
 				<a name="about">
 					<h2 className="title">About Me</h2>
 				</a>
-				<p className="text">
+				</div>
+				<div className="container__personalInfo">
+					<div className="personalInfo__text">
+				   <p className="text">
 					I'm Eleonora becoming a Frontend developer after an amazing experience working in a start-up and
 					digging deeper into Web sites and UX. In addition, I'm a sociologist holding a master degree in
 					Human Resources. I think study human behavior it's extremely important in this job for this reason I
@@ -20,6 +22,7 @@ function AboutMe() {
 					person. I believe in the energy generated from teamwork. I like to describe myself as an observant
 					and committed professional.
 				</p>
+				</div>
 				<div className="container__photo">
 					<img alt="girl" src={Eli} className="photo__aboutMe" />
 				</div>
@@ -42,7 +45,7 @@ function AboutMe() {
 					</a>
 				</Button>
 			</div>
-		</div>
+		</>
 	);
 }
 export default AboutMe;
