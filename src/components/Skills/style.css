@@ -38,9 +38,7 @@
 #react_bar {
 	background-color: rgba(70, 31, 248, 0.89);
 } */
-.container__skills {
-	margin-bottom: 50px;
-}
+
 .container__bars {
 	display: flex;
 	flex-direction: column;

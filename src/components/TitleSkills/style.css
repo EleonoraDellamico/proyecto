@@ -1,0 +1,5 @@
+.container__text {
+	isplay: flex;
+	flex-direction: column;
+	align-self: flex-start;
+}
