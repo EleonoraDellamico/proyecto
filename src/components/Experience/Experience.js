@@ -10,7 +10,7 @@ function Experience(props) {
 				<h2 className="title">Experience</h2>
 			</div>
 			<div className="container__experienceDetails">
-				<h2 className="title">Student Frontend Developer</h2>
+				<h2 className="title"> Junior Frontend Developer</h2>
 				<h5 className="title__detailsCompany">Company:Adalab</h5>
 				<h5 className="title__detailsCompany">sept 2020 – dic 2020</h5>
 				<h5 className="title__detailsCompany">Madrid</h5>
@@ -63,13 +63,6 @@ function Experience(props) {
 						</ArrowRightIcon>Communication tools teamwork: Slack, Trello, GitHub.
 					</li>
 				</ul>
-			</div>
-			<div className="btn__experience">
-				<Link to="/curriculum">
-					<Button variant="outlined" color="secondary">
-						More information
-					</Button>
-				</Link>
 			</div>
 		</div>
 	);

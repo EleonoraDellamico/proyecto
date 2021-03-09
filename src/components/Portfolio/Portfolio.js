@@ -2,8 +2,9 @@ import Photo from '../../img/Netflix.jpg';
 import PhotoOne from '../../img/card.jpg';
 import PhotoTwo from '../../img/gameCard.jpg';
 import GitHub from '../../img/github.png';
-import Link from '../../img/link.png';
+import Enlace from '../../img/link.png';
 import Button from '@material-ui/core/Button';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 
@@ -25,7 +26,7 @@ function Portfolio() {
 				<div className="info__imgPortfolio">
 					<p className="text textPortfolio">Design&layout Html Css Netflix</p>
 					<img className="link__portfolio" src={GitHub} alt="gitHub" />
-					<img className="link__portfolio" src={Link} alt="gitHub" />
+					<img className="link__portfolio" src={Enlace} alt="gitHub" />
 				</div>
 			</div>
 			<div className="container__imgPortfolio">
@@ -35,7 +36,7 @@ function Portfolio() {
 				<div className="info__imgPortfolio">
 					<p className="text textPortfolio">React project: Visting cards</p>
 					<img className="link__portfolio" src={GitHub} alt="gitHub" />
-					<img className="link__portfolio" src={Link} alt="gitHub" />
+					<img className="link__portfolio" src={Enlace} alt="gitHub" />
 				</div>
 			</div>
 			<div className="container__imgPortfolio">
@@ -46,14 +47,16 @@ function Portfolio() {
 				<div className="info__imgPortfolio">
 					<p className="text textPortfolio">Play memory card with JS!</p>
 					<img className="link__portfolio" src={GitHub} alt="gitHub" />
-					<img className="link__portfolio" src={Link} alt="gitHub" />
+					<img className="link__portfolio" src={Enlace} alt="gitHub" />
 				</div>
 			</div>
 			</div>
 			<div className="btn__experience">
-				<Button variant="outlined" color="secondary">
-					More projects
-				</Button>
+				<Link to="/moreProjects">
+					<Button variant="outlined" color="secondary">
+						More Projects
+					</Button>
+				</Link>
 			</div>
 			
 </>
