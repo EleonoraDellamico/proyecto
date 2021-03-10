@@ -5,7 +5,7 @@
 }
 .header {
 	position: relative;
-	height: 620px;
+	height: 912px;
 	width: 100vw;
 	display: flex;
 	flex-direction: column;
@@ -21,17 +21,18 @@
 }
 .css-typing {
 	background-color: black;
-	height: 180px;
+	height: 751px;
 	background-size: contain;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding-left: 18px;
+	align-self: baseline;
 }
 .css-typing p {
 	border-right: .15em solid orange;
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+	font-size: 25px;
 	white-space: nowrap; /* The white-space property specifies how white-space inside an element is handled */
 	overflow: hidden;
 	color: white;
@@ -118,36 +119,7 @@
 		border-color: tranparent;
 	}
 }
-
-/* .header-text-animation {
-	display: flex;
-	flex-direction: column;
-	font-weight: bolder;
-	z-index: 1;
-	width: 53vw;
-	height: 65px;
-	align-items: center;
-	background-color: #fffefe66;
-	justify-content: center;
-	border: 2px solid #fffffff2;
-	margin-top: 163px;
-}
-
-.text-animated {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 900;
-	text-transform: uppercase;
-	z-index: 1;
-	color: black;
-}
-.container__btn {
-	z-index: 999;
-}
 button {
-	border-radius: 54%;
-	padding: 4px;
 	border: none;
-	display: flex;
-	background-color: transparent;
-	cursor: pointer;
-} */
+	background: black;
+}

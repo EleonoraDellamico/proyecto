@@ -37,7 +37,7 @@ function AboutMe() {
 			</div>
 			<div className="btn__aboutMe">
 				<Button variant="contained" color="default" startIcon={<CloudDownloadIcon />}>
-					<a
+					<a target="_blank"
 						href="https://drive.google.com/file/d/15tRruG2eUCaDzYXY-p8MOAR1eBTM21lF/view?usp=sharing"
 						download="Eleonora__DellAmico__CV"
 					>

@@ -15,7 +15,7 @@ function Portfolio() {
 				<div className="container__btn" id="btn__up">
 					<button>
 						<a href="#about">
-							<img src="" alt="button" />
+							<img src="https://img.icons8.com/android/24/ffffff/double-up.png" alt="button" />
 						</a>
 					</button>
 				</div>

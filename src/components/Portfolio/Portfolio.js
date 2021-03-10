@@ -30,7 +30,7 @@ function Portfolio() {
 				</div>
 			</div>
 			<div className="container__imgPortfolio">
-				<a href="https://martreyz.github.io/project-promo-k-module-3-team-4/#/" taget="_blank">
+				<a href="https://martreyz.github.io/project-promo-k-module-3-team-4/#/" target="_blank">
 					<img className="portfolioImg" src={PhotoOne} alt="Cards" />
 				</a>
 				<div className="info__imgPortfolio">
