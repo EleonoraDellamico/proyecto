@@ -3,8 +3,8 @@ import PhotoOne from '../../img/card.jpg';
 import PhotoTwo from '../../img/gameCard.jpg';
 import GitHub from '../../img/github.png';
 import Enlace from '../../img/link.png';
-import Button from '@material-ui/core/Button';
-import { Link } from 'react-router-dom';
+/* import Button from '@material-ui/core/Button';
+import { Link } from 'react-router-dom'; */
 import './style.css';
 
 
@@ -51,13 +51,13 @@ function Portfolio() {
 				</div>
 			</div>
 			</div>
-			<div className="btn__experience">
+			{/* <div className="btn__experience">
 				<Link to="/moreProjects">
 					<Button variant="outlined" color="secondary">
 						More Projects
 					</Button>
 				</Link>
-			</div>
+			</div> */}
 			
 </>
 	);
