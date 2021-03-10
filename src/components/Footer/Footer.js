@@ -15,7 +15,7 @@ function Portfolio() {
 				<div className="container__btn" id="btn__up">
 					<button>
 						<a href="#about">
-							<img src="https://img.icons8.com/metro/26/ffffff/up--v1.png" alt="button" />
+							<img src="" alt="button" />
 						</a>
 					</button>
 				</div>
