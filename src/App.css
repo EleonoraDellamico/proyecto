@@ -7,9 +7,6 @@ html {
 	scroll-behavior: smooth;
 }
 
-.App {
-	text-align: center;
-}
 .container__skills {
 	margin: 50px;
 	display: flex;

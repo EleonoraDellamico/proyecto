@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.bdfe5599.chunk.css",
-    "main.js": "./static/js/main.c646f264.chunk.js",
-    "main.js.map": "./static/js/main.c646f264.chunk.js.map",
+    "main.css": "./static/css/main.396e3cb7.chunk.css",
+    "main.js": "./static/js/main.2cdc5bda.chunk.js",
+    "main.js.map": "./static/js/main.2cdc5bda.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.7019e8e4.js",
     "runtime-main.js.map": "./static/js/runtime-main.7019e8e4.js.map",
     "static/js/2.1cbc990e.chunk.js": "./static/js/2.1cbc990e.chunk.js",
@@ -10,10 +10,9 @@
     "static/js/3.1040a3db.chunk.js": "./static/js/3.1040a3db.chunk.js",
     "static/js/3.1040a3db.chunk.js.map": "./static/js/3.1040a3db.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.bdfe5599.chunk.css.map": "./static/css/main.bdfe5599.chunk.css.map",
+    "static/css/main.396e3cb7.chunk.css.map": "./static/css/main.396e3cb7.chunk.css.map",
     "static/js/2.1cbc990e.chunk.js.LICENSE.txt": "./static/js/2.1cbc990e.chunk.js.LICENSE.txt",
     "static/media/Eli.818f43bc.jpeg": "./static/media/Eli.818f43bc.jpeg",
-    "static/media/style.css": "./static/media/Fearless.db5ff325.jpg",
     "static/media/Netflix.b7eb71d5.jpg": "./static/media/Netflix.b7eb71d5.jpg",
     "static/media/card.1b81c691.jpg": "./static/media/card.1b81c691.jpg",
     "static/media/gameCard.16738718.jpg": "./static/media/gameCard.16738718.jpg"
@@ -21,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.7019e8e4.js",
     "static/js/2.1cbc990e.chunk.js",
-    "static/css/main.bdfe5599.chunk.css",
-    "static/js/main.c646f264.chunk.js"
+    "static/css/main.396e3cb7.chunk.css",
+    "static/js/main.2cdc5bda.chunk.js"
   ]
 }
