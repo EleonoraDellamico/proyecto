@@ -4,7 +4,7 @@ import './style.css';
 function Header() {
 	return (
 		<div className="header">
-			<div class="css-typing">
+			<div className="css-typing">
 				<p className="text-animated">I'm Eleonora</p>
 				<p className="text-animated">Frontend Junior</p>
 				<p className="text-animated">Coding is Rock & Roll</p>
