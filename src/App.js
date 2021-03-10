@@ -1,6 +1,4 @@
 import './App.css';
-// import MoreProjects from './components/MoreProjects/moreProjects';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Header from './components/Header/Header';
 import AboutMe from './components/AboutMe/AboutMe';
@@ -11,8 +9,9 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Footer from './components/Footer/Footer';
 
 function App() {
-	return (<>
-		<NavBar />
+	return (
+		<div>
+			<NavBar />
 			<Header />
 			<AboutMe />
 			<Experience />
@@ -31,8 +30,8 @@ function App() {
 			</div>
 			<Portfolio />
 			<Footer />
-</>
-	)
-};
-	
+		</div>
+	);
+}
+
 export default App;
