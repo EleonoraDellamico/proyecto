@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.26fee173.chunk.css",
-    "main.js": "./static/js/main.ca0c052e.chunk.js",
-    "main.js.map": "./static/js/main.ca0c052e.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.07f5ce55.js",
-    "runtime-main.js.map": "./static/js/runtime-main.07f5ce55.js.map",
-    "static/js/2.722170ea.chunk.js": "./static/js/2.722170ea.chunk.js",
-    "static/js/2.722170ea.chunk.js.map": "./static/js/2.722170ea.chunk.js.map",
-    "static/js/3.fbaad383.chunk.js": "./static/js/3.fbaad383.chunk.js",
-    "static/js/3.fbaad383.chunk.js.map": "./static/js/3.fbaad383.chunk.js.map",
+    "main.css": "./static/css/main.bdfe5599.chunk.css",
+    "main.js": "./static/js/main.3bb792cf.chunk.js",
+    "main.js.map": "./static/js/main.3bb792cf.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.0e106e8a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.0e106e8a.js.map",
+    "static/js/2.039f5322.chunk.js": "./static/js/2.039f5322.chunk.js",
+    "static/js/2.039f5322.chunk.js.map": "./static/js/2.039f5322.chunk.js.map",
+    "static/js/3.216df58a.chunk.js": "./static/js/3.216df58a.chunk.js",
+    "static/js/3.216df58a.chunk.js.map": "./static/js/3.216df58a.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.26fee173.chunk.css.map": "./static/css/main.26fee173.chunk.css.map",
-    "static/js/2.722170ea.chunk.js.LICENSE.txt": "./static/js/2.722170ea.chunk.js.LICENSE.txt",
+    "static/css/main.bdfe5599.chunk.css.map": "./static/css/main.bdfe5599.chunk.css.map",
+    "static/js/2.039f5322.chunk.js.LICENSE.txt": "./static/js/2.039f5322.chunk.js.LICENSE.txt",
     "static/media/Eli.818f43bc.jpeg": "./static/media/Eli.818f43bc.jpeg",
-    "static/media/style.css": "./static/media/map.0d3d77c7.jpg",
+    "static/media/style.css": "./static/media/Fearless.db5ff325.jpg",
     "static/media/Netflix.b7eb71d5.jpg": "./static/media/Netflix.b7eb71d5.jpg",
     "static/media/card.1b81c691.jpg": "./static/media/card.1b81c691.jpg",
     "static/media/gameCard.16738718.jpg": "./static/media/gameCard.16738718.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.07f5ce55.js",
-    "static/js/2.722170ea.chunk.js",
-    "static/css/main.26fee173.chunk.css",
-    "static/js/main.ca0c052e.chunk.js"
+    "static/js/runtime-main.0e106e8a.js",
+    "static/js/2.039f5322.chunk.js",
+    "static/css/main.bdfe5599.chunk.css",
+    "static/js/main.3bb792cf.chunk.js"
   ]
 }
