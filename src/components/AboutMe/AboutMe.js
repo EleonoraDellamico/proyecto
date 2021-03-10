@@ -7,9 +7,9 @@ import './style.css';
 function AboutMe() {
 	return (<>
 			<div className="container__title">
-				<a name="about">
+				 <a name="about"> 
 					<h2 className="title">About Me</h2>
-				</a>
+				</a> 
 				</div>
 				<div className="container__personalInfo">
 					<div className="personalInfo__text">
