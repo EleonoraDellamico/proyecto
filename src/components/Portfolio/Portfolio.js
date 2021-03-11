@@ -16,7 +16,6 @@ function Portfolio() {
 
 	return (<>
 		<div className="container__general">
-			
 			<div className="container__portfolio">
 			<div className="container__imgPortfolio">
 				<a href="https://eleonoradellamico.github.io/Cinema/" target="_blank">
