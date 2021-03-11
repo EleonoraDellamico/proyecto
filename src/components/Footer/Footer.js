@@ -14,17 +14,17 @@ function Portfolio() {
 			<div className="container__footer">
 				<div className="container__btn" id="btn__up">
 					<button>
-						{/* <a href="#about"> */}
-						<img src="https://img.icons8.com/android/24/ffffff/double-up.png" alt="button" />
-						{/* </a> */}
+						<a href="#about">
+							<img src="https://img.icons8.com/android/24/ffffff/double-up.png" alt="button" />
+						</a>
 					</button>
 				</div>
 				<div className="container__title">
-					{/* <a name="contact"> */}{' '}
-					<h2 className="title" id="footer__title">
-						Contact me
-					</h2>
-					{/* </a> */}
+					<a name="contact">
+						<h2 className="title" id="footer__title">
+							Contact me
+						</h2>
+					</a>
 				</div>
 				<div className="container_link__footer">
 					<a title="GitHub" href="https://github.com/EleonoraDellamico" target="_blank">

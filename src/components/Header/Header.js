@@ -11,13 +11,13 @@ function Header() {
 			</div>
 			<div className="container__btn">
 				<button>
-					{/* <a href="#about"> */}
-					<img
-						src="https://img.icons8.com/android/24/ffffff/double-down.png"
-						alt="button"
-						className="btnHeader"
-					/>
-					{/* </a> */}
+					<a href="#about">
+						<img
+							src="https://img.icons8.com/android/24/ffffff/double-down.png"
+							alt="button"
+							className="btnHeader"
+						/>
+					</a>
 				</button>
 			</div>
 		</div>

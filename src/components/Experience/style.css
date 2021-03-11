@@ -68,3 +68,8 @@
 		padding: 50px 80px;
 	}
 }
+@media all and (min-width: 1024px) {
+	.title__detailsCompany {
+		font-size: 13px;
+	}
+}

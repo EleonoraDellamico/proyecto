@@ -14,3 +14,8 @@ html {
 	flex-direction: column;
 	align-items: center;
 }
+.container__titlePortfolio {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

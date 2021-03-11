@@ -36,3 +36,8 @@ a {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bolder;
 }
+@media all and (min-width: 1024px) {
+	a {
+		font-size: 15px;
+	}
+}

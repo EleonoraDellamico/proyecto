@@ -119,3 +119,8 @@ button {
 	background: black;
 	outline: none;
 }
+@media all and (min-width: 1024px) {
+	.css-typing p {
+		font-size: 64px;
+	}
+}

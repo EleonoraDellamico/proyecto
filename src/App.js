@@ -28,6 +28,11 @@ function App() {
 				<TitleSkills title="React" />
 				<ProgressBar done="60" />
 			</div>
+			<div className="container__titlePortfolio">
+				<a name="portfolio">
+					<h2 className="title">Portfolio</h2>
+				</a>
+			</div>
 			<Portfolio />
 			<Footer />
 		</div>
